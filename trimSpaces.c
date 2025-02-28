@@ -26,5 +26,6 @@ void trimSpaces(char *buffer) {
         }
         read_ptr++;
     }
+    if (write_ptr > buffer && *(write_ptr-1) == ' ') write_ptr--;
     *write_ptr = '\0';
 }
