@@ -5,6 +5,10 @@
 #ifndef UNTITLED_GETLINE_H
 #define UNTITLED_GETLINE_H
 
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 
 /*Функция считывания строки до нажатия на Enter*/
 char* getLine();

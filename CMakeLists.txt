@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(untitled main.c
         getLine.h
-        getLIne.cpp)
+        getLine.c
+        trimSpaces.c
+        trimSpaces.h)
